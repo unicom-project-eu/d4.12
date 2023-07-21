@@ -11,6 +11,6 @@ D4.12 implementation guide uses the [UNICOM FHIR Implementation Guide](https://b
 ### Publication
 This ImplementationGuide is published in the following location:
 
-Continuous Build: __http://build.fhir.org/ig/unicom-project-ey/d4.12/index.html__  
+Continuous Build: __http://build.fhir.org/ig/unicom-project-eu/d4.12/index.html__  
 
 ---
