@@ -1,19 +1,16 @@
-Empty IG
+UNICOM Deliverable D4.12: prototype datafeed to eHealth
 ---
-This is an empty IG
-<br> </br>
-###
+This is part of the Work Package 4 deliverable D4.12 "Prototype presentation of ISO IDMP compliant datafeeds to eHealth consumers".
+The participants in this deliverable are the following NCAs: Austria, Belgium, Estonia, Portugal.
+The lead of the deliverable is Swedish NCA.
+
+The aim of the deliverable is to provide example specification for publishing ISO IDMP compliant data to national eHealth users and beyond. It follows EMA Implementation Guide, but also includes additional elements, that are relevant for most countries on national level (e.g shortages information, etc).
+
+D4.12 implementation guide uses the [UNICOM FHIR Implementation Guide](https://build.fhir.org/ig/hl7-eu/unicom-ig/) as its base and starting point.
+
 ### Publication
-This ImplementationGuide is published in the following locations:
+This ImplementationGuide is published in the following location:
 
-Continuous Build: __http://build.fhir.org/ig/openhie/fhir-ig-empty/branches/main/index.html__  
-Canonical / permanent URL: 
-<br> </br>
-
-### Issues
-Issues and change requests are managed here:  
-
-Issues:  __https://github.com/openhie/fhir-ig-empty/issues__  
-Kanban board:  __https://github.com/openhie/fhir-ig-empty/projects/1__  
+Continuous Build: __http://build.fhir.org/ig/unicom-project-ey/d4.12/index.html__  
 
 ---
