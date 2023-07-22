@@ -7,21 +7,21 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 
-id: my-ig
-canonical: http://example.com/fhir/example
-url: http://example.com/fhir/example
-name: ExampleIG
-title: "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"
-description: Example IG exercises many of the fields in a SUSHI configuration.
-status: active
+id: idmp-datafeed
+canonical: http://unicom-project.eu/fhir/d4-12
+url: http://unicom-project.eu/fhir/d4-12
+name: D4-12
+title: "Prototype IDMP-compatible Datafeed to eHealth (Deliverable D4.12)"
+description: The aim of the deliverable is to provide example specification for publishing ISO IDMP compliant data to national eHealth users and beyond. It follows EMA Implementation Guide, but also includes additional elements, that are relevant for most countries on national level (e.g shortages information, etc).
+status: draft
 license: CC0-1.0
-date: 2020-02-26
+date: 2023-07-22
 version: 1.0.0
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
 # it can be a single item OR and array here (but so far SUSHI only
 # supports 4.0.1 anyway).
-fhirVersion: 4.0.1
+fhirVersion: 5.0.0
 
 # The following two lines correspond to items that used to be in
 # ig.ini but were moved to IG.definition.parameter. For
@@ -29,7 +29,7 @@ fhirVersion: 4.0.1
 # camelcase, but if authors use the formal parameter names, SUSHI
 # will recognize them as well. In either case, they'll be copied
 # to the IG JSON using the formal names.
-copyrightYear: 2021+
+copyrightYear: 2023+
 releaseLabel: STU1
 
 # The publisher can be a single item or a list, each with a name and
@@ -37,16 +37,16 @@ releaseLabel: STU1
 # as IG.publisher.  The contact details and/or additional publishers
 # will be translated into IG.contact values.
 publisher:
-  name: My Organization 
-  url: http://example.com/committees
-  email: my-group@example.com
+  name: UNICOM
+  url: https://unicom-project.eu/
+#  email: my-group@example.com
 
 # ContactDetail is required by the template.
 contact:
-  - name: Bob Smith
+  - name: Rutt Lindström
     telecom:
       - system: email
-        value: bobsmith@example.com
+        value: rutt.lindstrom@tehik.ee
         use: work
 
 # The jurisdiction can be a single item or a list. The FHIR Shorthand
