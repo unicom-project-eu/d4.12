@@ -1,0 +1,121 @@
+[
+  {
+    "id" : "idmp-datafeed",
+    "type" : "ImplementationGuide",
+    "url" : "http://unicom-project.eu/fhir/d4-12",
+    "version" : "1.0.0",
+    "name" : "D412"
+  },
+  {
+    "id" : "AD",
+    "type" : "StructureDefinition",
+    "url" : "http://unicom-project.eu/fhir/d4-12/StructureDefinition/AD",
+    "version" : "1.0.0",
+    "name" : "AD"
+  },
+  {
+    "id" : "ANY",
+    "type" : "StructureDefinition",
+    "url" : "http://unicom-project.eu/fhir/d4-12/StructureDefinition/ANY",
+    "version" : "1.0.0",
+    "name" : "ANY"
+  },
+  {
+    "id" : "BL",
+    "type" : "StructureDefinition",
+    "url" : "http://unicom-project.eu/fhir/d4-12/StructureDefinition/BL",
+    "version" : "1.0.0",
+    "name" : "BL"
+  },
+  {
+    "id" : "CD",
+    "type" : "StructureDefinition",
+    "url" : "http://unicom-project.eu/fhir/d4-12/StructureDefinition/CD",
+    "version" : "1.0.0",
+    "name" : "CD"
+  },
+  {
+    "id" : "Class",
+    "type" : "StructureDefinition",
+    "url" : "http://unicom-project.eu/fhir/d4-12/StructureDefinition/Class",
+    "version" : "1.0.0",
+    "name" : "Class"
+  },
+  {
+    "id" : "DT",
+    "type" : "StructureDefinition",
+    "url" : "http://unicom-project.eu/fhir/d4-12/StructureDefinition/DT",
+    "version" : "1.0.0",
+    "name" : "DT"
+  },
+  {
+    "id" : "EN",
+    "type" : "StructureDefinition",
+    "url" : "http://unicom-project.eu/fhir/d4-12/StructureDefinition/EN",
+    "version" : "1.0.0",
+    "name" : "EN"
+  },
+  {
+    "id" : "II",
+    "type" : "StructureDefinition",
+    "url" : "http://unicom-project.eu/fhir/d4-12/StructureDefinition/II",
+    "version" : "1.0.0",
+    "name" : "II"
+  },
+  {
+    "id" : "INT",
+    "type" : "StructureDefinition",
+    "url" : "http://unicom-project.eu/fhir/d4-12/StructureDefinition/INT",
+    "version" : "1.0.0",
+    "name" : "INT"
+  },
+  {
+    "id" : "MedicinalProduct",
+    "type" : "StructureDefinition",
+    "url" : "http://unicom-project.eu/fhir/d4-12/StructureDefinition/MedicinalProduct",
+    "version" : "1.0.0",
+    "name" : "MedicinalProduct"
+  },
+  {
+    "id" : "PQ",
+    "type" : "StructureDefinition",
+    "url" : "http://unicom-project.eu/fhir/d4-12/StructureDefinition/PQ",
+    "version" : "1.0.0",
+    "name" : "PQ"
+  },
+  {
+    "id" : "REAL",
+    "type" : "StructureDefinition",
+    "url" : "http://unicom-project.eu/fhir/d4-12/StructureDefinition/REAL",
+    "version" : "1.0.0",
+    "name" : "REAL"
+  },
+  {
+    "id" : "RTO",
+    "type" : "StructureDefinition",
+    "url" : "http://unicom-project.eu/fhir/d4-12/StructureDefinition/RTO",
+    "version" : "1.0.0",
+    "name" : "RTO"
+  },
+  {
+    "id" : "ST",
+    "type" : "StructureDefinition",
+    "url" : "http://unicom-project.eu/fhir/d4-12/StructureDefinition/ST",
+    "version" : "1.0.0",
+    "name" : "ST"
+  },
+  {
+    "id" : "TS",
+    "type" : "StructureDefinition",
+    "url" : "http://unicom-project.eu/fhir/d4-12/StructureDefinition/TS",
+    "version" : "1.0.0",
+    "name" : "TS"
+  },
+  {
+    "id" : "Untyped",
+    "type" : "StructureDefinition",
+    "url" : "http://unicom-project.eu/fhir/d4-12/StructureDefinition/Untyped",
+    "version" : "1.0.0",
+    "name" : "Untyped"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "url" : "http://unicom-project.eu/fhir/d4-12",
+  "name" : "D412",
+  "package-id" : "idmp-datafeed",
+  "ig-ver" : "1.0.0",
+  "date" : "Sat, 22 Jul, 2023 11:48:41 +0000",
+  "errs" : 5,
+  "warnings" : 19,
+  "hints" : 0,
+  "version" : "5.0.0",
+  "tool" : "5.0.0 (3)"
+}

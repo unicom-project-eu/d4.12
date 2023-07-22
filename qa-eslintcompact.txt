@@ -1,0 +1,27 @@
+﻿/github/workspace/fsh-generated/resources/ImplementationGuide-idmp-datafeed.json: line 0, col 0, Error - Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-idmp-datafeed.json - the canonical URL (http://unicom-project.eu/fhir/d4-12/ImplementationGuide/idmp-datafeed) does not match the URL (http://unicom-project.eu/fhir/d4-12) (INVALID)
+/github/workspace/fsh-generated/resources/ImplementationGuide-idmp-datafeed.json: line 0, col 0, Error - Resource id/url mismatch: idmp-datafeed/http://unicom-project.eu/fhir/d4-12 (INVARIANT)
+/github/workspace/fsh-generated/resources/ImplementationGuide-idmp-datafeed.json: line 0, col 0, Error - URL Mismatch http://unicom-project.eu/fhir/d4-12/ImplementationGuide/idmp-datafeed vs http://unicom-project.eu/fhir/d4-12 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-AD.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-ANY.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-BL.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-CD.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-Class.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-DT.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-EN.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-II.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-INT.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-MedicinalProduct.json: line 1, col 365980, Error - Error in invariant 'itemcontent-1' with expression 'containedPackage.exists() implies manufacturedItem.exists().not()': Error evaluating FHIRPath expression: The name 'containedPackage' is not valid for any of the possible types: [http://unicom-project.eu/fhir/d4-12/StructureDefinition/MedicinalProduct#MedicinalProduct.packagedProductDefinition.packaging.innerPackage.containedItem] (@char 3) (INVALID)
+/github/workspace/fsh-generated/resources/StructureDefinition-MedicinalProduct.json: line 1, col 263427, Error - Error in invariant 'itemcontent-1' with expression 'containedPackage.exists() implies manufacturedItem.exists().not()': Error evaluating FHIRPath expression: The name 'containedPackage' is not valid for any of the possible types: [http://unicom-project.eu/fhir/d4-12/StructureDefinition/MedicinalProduct#MedicinalProduct.packagedProductDefinition.packaging.innerPackage.containedItem] (@char 3) (INVALID)
+/github/workspace/fsh-generated/resources/StructureDefinition-PQ.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-REAL.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-RTO.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-ST.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-TS.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-Untyped.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
+
+D412 : Validation Results
+=========================================
+
+err = 5, warn = 19, info = 0
+IG Publisher Version: 1.3.23
+Generated Sat Jul 22 11:49:15 UTC 2023. FHIR version 5.0.0 for idmp-datafeed#1.0.0 (canonical = http://unicom-project.eu/fhir/d4-12)
