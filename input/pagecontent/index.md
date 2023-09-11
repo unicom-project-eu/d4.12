@@ -23,6 +23,8 @@ The specification is part of UNICOM Work Package 4 deliverable "D4.14 Prototype 
 - [IHE ePrescription and Medication Overview](https://wiki.ihe.net/index.php/MPD_Main_Page)
 
 **Related UNICOM deliverables:**
+- D5.1: Business requirements for the adoption of IDMP in eHealth Services
+- D5.2: Guidelines for IDMP-based Cross-Border ePrescription / eDispensation & Patient Summary
 - D5.7: Common minimum data set for implementation in the national NCA and eHealth solutions.
 - D9.1: An analysis of the IDMP medicinal product identification data provided by NCAs (and SPOR) compared to that needed in MPD for clinical care and for secondary uses.
 - D9.3: Report on the Specification(s) and delivery technology for IDMP data delivery from NCA to MPD.
