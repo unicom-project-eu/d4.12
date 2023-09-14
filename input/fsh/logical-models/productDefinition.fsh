@@ -37,6 +37,7 @@ Description: "Logical model for a pilot product list's medicinal product"
   * pil 0..1 Class "Package Information Leaflet"
   * labelling 0..1 Class "Labelling information"
   * par 0..1 Class "Public assessment report"
+  * rmm 0..1 Class "Additional risk minimisation measures"
   * other 0..* Class "Other document"
 
 * packagedProductDefinition 1..* Class "Packaged product"
