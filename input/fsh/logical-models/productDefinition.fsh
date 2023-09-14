@@ -61,6 +61,7 @@ Description: "Logical model for a pilot product list's medicinal product"
     * packageType 1..1 CD "Package type"
     * quantity 1..1 PQ "Package quantity (number of this type of items)" //always 1 for the outer package
     * material 0..* CD "Package material"
+    * shelfLifeStorage 0..* Class "Shelf life and storage conditions" //TODO fill in
     * innerPackage 0..* Class "Inner Package"
       * containedItem 0..* Class "The content of the inner package"
         * amount 1..1 PQ "Amount of manufacturedItems (solid) or size of the manufactured item (liquid)"
