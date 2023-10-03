@@ -30,7 +30,7 @@ Description: """Medicinal Product data"""
   * ^definition = "EMA IG 1.1. EMA Product Management System identifier if exists. For UNICOM testing data fake PMS IDs can be used"
 
 * domain 0..1 
- * domain from domain-vs
+* domain from domain-vs
 // default * domain = $100000000004#100000000012 "Human use"
   * ^definition = "EMA IG 1.3"
 
@@ -39,7 +39,7 @@ Description: """Medicinal Product data"""
 // default * status = $200000005003#200000005004 'Current'
   * ^short = "Status of the product's data. Default 200000005004 'Current'"
 
-* legalStatusOfSupply 0..1 from legal-status-for-the-supply-vs
+* legalStatusOfSupply from legal-status-for-the-supply-vs
   * ^short = "Legal status of supply on the medicinal product level."
   * ^definition = "EMA IG 1.7. Legal status of supply on the medicinal product level. The same information can be repeated/differentiated on the package level"
 
@@ -131,7 +131,7 @@ Description: """Marketing Authorisation (Regulated Authorization) data"""
 * type 0..1
 * type = $220000000060#220000000061 "Marketing Authorisation"
 
-* region 0..1 from country-ema-vs
+* region from country-ema-vs
   * ^definition = "EMA IG 2.3"
 
 * status 0..1
@@ -160,8 +160,7 @@ Description: """Manufactured Item data"""
   * ^short = "Dose form of the manufactured item (before preparing for administration)"
   * ^definition = "EMA IG 4.11.3"
 
-* unitOfPresentation 0..1
-   from unit-of-presentation-vs
+* unitOfPresentation from unit-of-presentation-vs
   * ^short = "Unit of presentation of the manufactured item (before preparing for administration)"
   * ^definition = "EMA IG 4.11.1"
 
@@ -180,7 +179,7 @@ Description: """Administrable Product data"""
   * ^short = "Reference to the Medicinal Product"
 * formOf only Reference(MedicinalProductD412)
 
-* administrableDoseForm 0..1 from pharmaceutical-doseform-vs
+* administrableDoseForm from pharmaceutical-doseform-vs
 //  * coding.system = $200000000004
   * ^short = "Dose form of the administrable product (after preparing for administration)"
   * ^definition = "EMA IG 6.2"
@@ -255,7 +254,7 @@ Description: """Ingredient data"""
         * numerator.system = $100000110633
         * numerator from unit-of-measurement-vs
 
-        * denominator.code from all-units-vs (unit of presentation or unit of unit of measurement)
+        * denominator.code from all-units-vs
 
         
 // PROFILE: Packaged Product
@@ -282,7 +281,7 @@ Description: """Packaged Product data"""
 * packageFor only Reference(MedicinalProductD412)
 * packageFor 0..*
 
-* containedItemQuantity 0..* from unit-of-presentation-vs
+* containedItemQuantity from unit-of-presentation-vs
 //  * system = $200000000014
   * ^short = "Pack size. Repeated for combination packages."
   * ^definition = "EMA IG 4.4"
