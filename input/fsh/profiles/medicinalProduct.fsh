@@ -43,7 +43,7 @@ Description: """Medicinal Product data"""
   * ^short = "Legal status of supply on the medicinal product level."
   * ^definition = "EMA IG 1.7. Legal status of supply on the medicinal product level. The same information can be repeated/differentiated on the package level"
 
-* combinedPharmaceuticalDoseForm 0..1 from authorised-doseform-vs 
+* combinedPharmaceuticalDoseForm from authorised-doseform-vs 
   * ^short = "Authorised dose form for the product, incl combination package dose forms"
   * ^definition = "EMA IG 1.5 & 1.6. Authorised dose form for the whole product. As applicable in one of the SPOR RMS list Combined pharmaceutical dose form, Pharmaceutical dose form, Combined term, Combination Package"
 
@@ -184,7 +184,7 @@ Description: """Administrable Product data"""
   * ^short = "Dose form of the administrable product (after preparing for administration)"
   * ^definition = "EMA IG 6.2"
 
-* unitOfPresentation 0..1 from unit-of-presentation-vs
+* unitOfPresentation from unit-of-presentation-vs
 //  * coding.system = $200000000014
   * ^short = "Unit of presentation of the administrable product (after preparing for administration). Not applicable for certain products/packaging."
   * ^definition = "EMA IG 6.3"
@@ -236,13 +236,13 @@ Description: """Ingredient data"""
     * concentrationRatio
       * ^short = "Strength per unit of measurement (20mg/1ml)"
       * ^definition = "EMA IG 5.5.2"
-      * numerator.comparator.coding.system = $100000000008 // TO DO: not easily extendable, what to do with it?
+ 
 
     //  * numerator.system = $100000110633
     //  * numerator from unit-of-measurement-vs
 
     //  * denominator.system = $100000110633
-      * denominator.code from unit-of-measurement-vs
+    //  * denominator.code from unit-of-measurement-vs
 
     * referenceStrength
       * ^definition = "EMA IG 5.5.3. According to EMA, this is a mandatory element for all products, which is not necessarily accepted by all NCAs, and it is ambivalent in ISO IDMP."
@@ -298,8 +298,7 @@ Description: """Packaged Product data"""
 
 * marketingStatus
   * ^definition = "EMA IG 4.6"
-  * country 0..1
-    * from country-ema-vs
+  * country from country-ema-vs
   * status 1..1 // This is 1..1 in core FHIR spec
     * coding.system = $100000072052
 
