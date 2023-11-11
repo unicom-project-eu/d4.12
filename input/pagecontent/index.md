@@ -5,10 +5,10 @@ The implementation guide is based on [UNICOM Implementation Guide](http://build.
 
 ### Specification
 The specification aims to be a prototype, suitable for most NCAs for planning their public data feed after aligning their inner information systems with ISO IDMP.
-The specification is part of UNICOM Work Package 4 deliverable "D4.14 Prototype presentation of IDMP compatible datafeeds to eHealth consumers". 
+The specification is part of UNICOM Work Package 4 deliverable "D4.12 Prototype presentation of IDMP compatible datafeeds to eHealth consumers". 
 
 **Content of the Implementation Guide:**
-- Logical data modelling;
+- Logical data model;
 - FHIR profiles for related resources;
 - Examples from different countries;
 - Guidance on which coded terminologies to use;
@@ -18,7 +18,7 @@ The specification is part of UNICOM Work Package 4 deliverable "D4.14 Prototype 
 **Related resources:**
 - [UNICOM Implementation Guide](http://build.fhir.org/ig/hl7-eu/unicom-ig/)
 - [European Medicines Agency's ISO IDMP Implementation Guide](https://www.ema.europa.eu/en/documents/regulatory-procedural-guideline/product-management-services-pms-implementation-international-organization-standardization-iso_en-0.pdf)
-- [HL7 Electronic Patient Information](http://build.fhir.org/ig/HL7/emedicinal-product-info/toc.html)
+- [HL7 Electronic Product Information](http://build.fhir.org/ig/HL7/emedicinal-product-info/toc.html)
 - [MyHealth@EU crossborder services](https://art-decor.ehdsi.eu/html/publication/epSOS/)
 - [IHE ePrescription and Medication Overview](https://wiki.ihe.net/index.php/MPD_Main_Page)
 
