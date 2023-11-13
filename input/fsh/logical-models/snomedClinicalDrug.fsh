@@ -1,3 +1,4 @@
+/*
 Logical: SnomedClinicalDrug
 Title: "SNOMED Clinical Drug"
 Description: "SNOMED CT Clinical Drug concept model"
@@ -23,7 +24,7 @@ Description: "SNOMED CT Clinical Drug concept model"
       * numeratorUnit 0..1 CD "Attribute |Has concentration strength numerator unit|"
       * denominatorValue 0..1 INT "Attribute |Has concentration strength denominator value|"
       * denominatorUnit 0..1 CD "Attribute |Has concentration strength denominator unit|"
-
+*/
 
 Logical: SnomedFhirClinicalDrug
 Title: "SNOMED Clinical Drug FHIR"

@@ -1,6 +1,11 @@
 ### FHIR resources for medication data
 
-Medication  
-MedicationKnowledge  
-CodeSystem  
-MedicationDefinition module resources  
+There are four standard ways of providing medication data in HL7 FHIR standard: 
+
+[**Medication**](https://www.hl7.org/fhir/medication.html) resource is used in all the clinical workflows. It is designed as a very lean resource, ideally containing just the identifier or a code of the product, but the basic information about the dose form and active ingredients are also possible to add. Medication resource does not have an element or an extension for common regulatory data elements like product name or classification. It is important to understand how Medication resource interacts with IDMP-compatible MedicationDefinition module resources, but it can be concluded, that Medication resource itself is not designed/suitable for publishing regulatory data. 
+
+[**MedicationKnowledge**](https://www.hl7.org/fhir/medicationknowledge.html) is intended to provide more detailed information about the medication. Unlike the MedicationDefinition module resources, it is not a complete definition of the medication. However, it provides some extra information such as costs, monitoring programs, etc, which are relevant for product catalogues. While this resource could theoretically be enough for the prototype datafeed, it should be noted, that many data elements in MedicationKnowledge reference resources from the MedicationDefinition module, creating a hybrid solution of two different approaches. 
+
+[**CodeSystem**](https://www.hl7.org/fhir/codesystem.html) is a FHIR resource for capturing a terminology. Medication data is often provided to eHealth as a terminology, where product code serves as the concept code, product name serves as the concept display name, and the characteristics of the product are provided as properties of the concept. This approach is currently used in Austria, and it is also used when SNOMED CT concepts are published in FHIR. However, it is not an optimal approach for the enhanced regulatory data feed and would require an immense effort to design a CodeSystem resource with an IDMP-compatible logical model for concepts. 
+
+[**MedicationDefinition module**](https://www.hl7.org/fhir/medication-definition-module.html) resources are designed for ISO IDMP and regulatory processes. This set of resources has been chosen for implementation by EMA SPOR and HL7 Electronic Patient Access project, both specifications the NCAs are motivated to align with. UNICOM deliverable 9.3 “Report on the Specification(s) and delivery technology for IDMP data delivery from NCA to MPD” also proposes using MedicationDefinition resources for the exact use case covered in the current deliverable. 
