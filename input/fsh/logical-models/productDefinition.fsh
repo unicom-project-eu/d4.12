@@ -9,6 +9,7 @@ Logical: MedicinalProduct
 Title: "Medicinal Product Logical Model"
 Description: "Logical model for a pilot product list's medicinal product"
 
+* ^extension[http://hl7.org/fhir/tools/StructureDefinition/logical-target].valueBoolean = true
 * identifier 1..* Class "Identifiers of different types"
   * mpId 1..1 II "Medicinal Product Identifier (MPID)"
   * pmsId 0..1 II "EMA PMS Identifier"
@@ -31,7 +32,7 @@ Description: "Logical model for a pilot product list's medicinal product"
   * nameUsage 0..* Class "Countries and languages where the name is used"
     * jurisdiction 1..1 ST "Country"
     * language 1..1 ST "Language" 
-* marketingAuthorisation 0..1 Reference(MarketingAuthorisation) "Marketing authorisation for medicinal product"
+* marketingAuthorisation 0..1 Reference(MarketingAuthorisationD412) "Marketing authorisation for medicinal product"
 * documents 0..* Class "Documents of different types, linked or enclosed, related to product definition"
   * smpc 0..1 Class "Summary of Product Characteristics"
   * pil 0..1 Class "Package Information Leaflet"
@@ -108,6 +109,7 @@ Logical: MarketingAuthorisation
 Title: "Marketing Authorisation"
 Description: "Marketing authorisation data on package or medicinal product level"
 
+* ^extension[http://hl7.org/fhir/tools/StructureDefinition/logical-target].valueBoolean = true
 * marketingAuthorisation 0..* Class "Marketing Authorisation for the product"
   * marketingAuthorisationNumber 1..* II "Marketing authorisation number"
   * region 1..1 CD "Region"

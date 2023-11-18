@@ -30,6 +30,7 @@ Logical: SnomedFhirClinicalDrug
 Title: "SNOMED Clinical Drug FHIR"
 Description: "SNOMED CT Clinical Drug concept model with FHIR data types"
 
+* ^extension[http://hl7.org/fhir/tools/StructureDefinition/logical-target].valueBoolean = true
 * manufacturedDoseForm 0..1 code "Attribute |Has manufactured dose form|"
 * unitOfPresentation 0..1 code "Attribute |Has unit of presentation|"
 * unitOfPresentationSizeQuantity 0..1 decimal "Attribute |Unit of presentation size quantity|"
