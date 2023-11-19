@@ -1,7 +1,7 @@
-Instance: 011-Betaklav500-125-EE-FullProduct
+Instance: EE-Betaklav500-125-Tablet
 InstanceOf: Bundle
 Usage: #example
-Description: "Amoxicillin 500mg, clavulanic acid 125mg. Tablets. Estonia."
+Description: "Betaklav. Amoxicillin 500mg, clavulanic acid 125mg. Tablets. Estonia."
 
 * type = #collection
 * entry[0].resource = Betaklav-500mg-125mg-EE-MPD
@@ -56,7 +56,7 @@ Description: "Amoxicillin 500mg, clavulanic acid 125mg. Tablets. Estonia."
 
 
 Instance: Betaklav-500mg-125mg-EE-MPD
-InstanceOf: PPLMedicinalProductDefinition
+InstanceOf: MedicinalProductD412
 Usage: #inline
 * identifier[pmsid].value = "0000000000006"
 * identifier[mpid].value = "EE-100009540-30722"
@@ -80,7 +80,7 @@ Usage: #inline
 
 
 Instance: Betaklav-500mg-125mg-EE-RA
-InstanceOf: PPLRegulatedAuthorization
+InstanceOf: MarketingAuthorisationD412
 Usage: #inline
 * identifier.value = "879415"
 * subject = Reference(Betaklav-500mg-125mg-EE-MPD)
@@ -92,7 +92,7 @@ Usage: #inline
 
 
 Instance: LOC-100009540-KrkaNovoMesto
-InstanceOf: PPLOrganization
+InstanceOf: OrganizationD412
 Usage: #inline
 * identifier[loc].value = "LOC-100009540"
 * identifier[org].value = "ORG-100000627"
@@ -101,7 +101,7 @@ Usage: #inline
 
 
 Instance: Betaklav-500mg-125mg-EE-APD
-InstanceOf: PPLAdministrableProductDefinition
+InstanceOf: AdministrableProductD412
 Usage: #inline
 * status = #active
 * formOf = Reference(Betaklav-500mg-125mg-EE-MPD)
@@ -112,7 +112,7 @@ Usage: #inline
 
 
 Instance: Betaklav-500mg-125mg-EE-MID
-InstanceOf: PPLManufacturedItemDefinition
+InstanceOf: ManufacturedItemD412
 Usage: #inline
 * status = #active
 * manufacturedDoseForm = $200000000004#100000073665 "Film-coated tablet"
@@ -120,7 +120,7 @@ Usage: #inline
 
 
 Instance: Betaklav-500mg-125mg-EE-I-100000092629
-InstanceOf: PPLIngredient
+InstanceOf: IngredientD412
 Usage: #inline
 * status = #active
 * for[0] = Reference(Betaklav-500mg-125mg-EE-MPD)
@@ -140,7 +140,7 @@ Usage: #inline
 
 
 Instance: Betaklav-500mg-125mg-EE-I-100000093061
-InstanceOf: PPLIngredient
+InstanceOf: IngredientD412
 Usage: #inline
 * status = #active
 * for[0] = Reference(Betaklav-500mg-125mg-EE-MPD)
@@ -160,7 +160,7 @@ Usage: #inline
 
 
 Instance: Betaklav-500mg-125mg-EE-PPD-1635117
-InstanceOf: PPLPackagedProductDefinition
+InstanceOf: PackagedProductD412
 Usage: #inline
 * identifier[pcid].value = "EE-100009540-30722-1635117"
 * packageFor = Reference(Betaklav-500mg-125mg-EE-MPD)
@@ -180,7 +180,7 @@ Usage: #inline
 * packaging.packaging.containedItem.amount.value = 10
 
 Instance: Betaklav-500mg-125mg-EE-PPD-1635207
-InstanceOf: PPLPackagedProductDefinition
+InstanceOf: PackagedProductD412
 Usage: #inline
 * identifier[pcid].value = "EE-100009540-30722-1635207"
 * packageFor = Reference(Betaklav-500mg-125mg-EE-MPD)
@@ -200,7 +200,7 @@ Usage: #inline
 * packaging.packaging.containedItem.amount.value = 500
 
 Instance: Betaklav-500mg-125mg-EE-PPD-1635139
-InstanceOf: PPLPackagedProductDefinition
+InstanceOf: PackagedProductD412
 Usage: #inline
 * identifier[pcid].value = "EE-100009540-30722-1635139"
 * packageFor = Reference(Betaklav-500mg-125mg-EE-MPD)

@@ -1,16 +1,17 @@
-Instance: pt1
+Instance: PT-Augmentin-500-125-FilmCoatedTablets
 InstanceOf: Bundle
 Usage: #example
+Description: "Augmentin. Amoxicillin 500mg, clavulanic acid 125mg. Film coated tablets. Portugal."
 * type = #collection
 
-* entry[+].resource = mp-709
-* entry[=].fullUrl = "mp-709"
+* entry[+].resource = PT-Augmentin-500-125-FilmCoatedTablets-MPD
+* entry[=].fullUrl = "PT-Augmentin-500-125-FilmCoatedTablets-MPD"
 
-* entry[+].resource = ap-709
-* entry[=].fullUrl = "ap-709"
+* entry[+].resource = PT-Augmentin-500-125-FilmCoatedTablets-APD
+* entry[=].fullUrl = "PT-Augmentin-500-125-FilmCoatedTablets-APD"
 
-* entry[+].resource = mid-709
-* entry[=].fullUrl = "mid-709"
+* entry[+].resource = PT-Augmentin-500-125-FilmCoatedTablets-MID
+* entry[=].fullUrl = "PT-Augmentin-500-125-FilmCoatedTablets-MID"
 
 * entry[+].resource = LOC-100002296
 * entry[=].fullUrl = "LOC-100002296"
@@ -21,23 +22,21 @@ Usage: #example
 * entry[+].resource = ingredient-f671e1a8c419e11c17fd1058437b6c57
 * entry[=].fullUrl = "ingredient-f671e1a8c419e11c17fd1058437b6c57"
 
-* entry[+].resource = auth-25928572732679f98d29b3536c8e63d1
-* entry[=].fullUrl = "auth-25928572732679f98d29b3536c8e63d1"
+* entry[+].resource = PT-Augmentin-500-125-FilmCoatedTablets-RA
+* entry[=].fullUrl = "PT-Augmentin-500-125-FilmCoatedTablets-RA"
 
-* entry[+].resource = ppd-63241
-* entry[=].fullUrl = "ppd-63241"
+* entry[+].resource = PT-Augmentin-500-125-FilmCoatedTablets-PPD-63241
+* entry[=].fullUrl = "PT-Augmentin-500-125-FilmCoatedTablets-PPD-63241"
 
-
-
-Instance: ap-709
-InstanceOf: PPLAdministrableProductDefinition
+Instance: PT-Augmentin-500-125-FilmCoatedTablets-APD
+InstanceOf: AdministrableProductD412
 Title: "Administrable product Augmentin 500 mg + 125 mg Comprimido revestido por película"
 Description: "Augmentin 500 mg + 125 mg Comprimido revestido por película"
-Usage: #example
+Usage: #inline
 
 * status = #active
 
-* formOf = Reference(mp-709)
+* formOf = Reference(PT-Augmentin-500-125-FilmCoatedTablets-MPD)
 
 //* administrableDoseForm = $200000000004#100000073665 "Comprimido revestido por película"
 //* unitOfPresentation = $200000000014#200000002152 "Comprimido"
@@ -47,23 +46,22 @@ Usage: #example
 
 //reference to ManufacturedProduct 
 // for: 
-* producedFrom = Reference(mid-709)
+* producedFrom = Reference(PT-Augmentin-500-125-FilmCoatedTablets-MID)
 
 
 * routeOfAdministration[+].code = $100000073345#100000073619 "Oral use"
 //* routeOfAdministration[+].code = $100000073345#100000073619 "Via oral"
 
 
-Instance: mp-709
-InstanceOf: PPLMedicinalProductDefinition
+Instance: PT-Augmentin-500-125-FilmCoatedTablets-MPD
+InstanceOf: MedicinalProductD412
 Title: "Medicinal Product Augmentin 500 mg + 125 mg Comprimido revestido por película"
 Description: "Augmentin 500 mg + 125 mg Comprimido revestido por película (709)"
-Usage: #example
+Usage: #inline
 
 //* id = "" 
 
-// MPID ID??
-//* identifier[pmsid].value = 
+
 * identifier[mpid].value = "PT-100002296-709"
 
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
@@ -99,11 +97,11 @@ Usage: #example
 * name.usage.language = $100000072057#100000072251  "Portuguese"
 
 
-Instance: mid-709
-InstanceOf: PPLManufacturedItemDefinition
+Instance: PT-Augmentin-500-125-FilmCoatedTablets-MID
+InstanceOf: ManufacturedItemD412
 Title: "Manufactured item Augmentin 500 mg + 125 mg Comprimido revestido por película"
 Description: "Augmentin 500 mg + 125 mg Comprimido revestido por película"
-Usage: #example
+Usage: #inline
 
 
 * status = #active
@@ -115,13 +113,11 @@ Usage: #example
 //* unitOfPresentation = $200000000014#100000110756 "Comprimido"
 
 
-*  manufacturer = Reference(LOC-100002296)
-
 Instance: LOC-100002296
-InstanceOf: PPLOrganization
+InstanceOf: OrganizationD412
 Title: "GlaxoSmithkline Produtos Farmacêuticos, Lda."
 Description: "GlaxoSmithkline Produtos Farmacêuticos, Lda. MAH"
-Usage: #example
+Usage: #inline
 * id = "LOC-100002296" 
 * identifier[loc].value = "LOC-100002296"
 * name = "GlaxoSmithkline Produtos Farmacêuticos, Lda."
@@ -129,10 +125,10 @@ Usage: #example
 
 //Amoxicilina tri-hidratada//345; 346
 Instance: ingredient-837ad7154cf5d94c9f0e79be570d1942
-InstanceOf: PPLIngredient
+InstanceOf: IngredientD412
 Title: "Amoxicilina tri-hidratada"
 Description: "ingredient Amoxicilina tri-hidratada with strength 573.96 as Ativo for 709"
-Usage: #example
+Usage: #inline
 
 * role = $100000072050#100000072072 "active"
 * status = #active
@@ -152,16 +148,16 @@ Usage: #example
 
 // Reference to products item
 
-* for[0] = Reference(mp-709)
-* for[+] = Reference(ap-709)
-* for[+] = Reference(mid-709)
+* for[0] = Reference(PT-Augmentin-500-125-FilmCoatedTablets-MPD)
+* for[+] = Reference(PT-Augmentin-500-125-FilmCoatedTablets-APD)
+* for[+] = Reference(PT-Augmentin-500-125-FilmCoatedTablets-MID)
 
 //Clavulanato de potássio//345; 346
 Instance: ingredient-f671e1a8c419e11c17fd1058437b6c57
-InstanceOf: PPLIngredient
+InstanceOf: IngredientD412
 Title: "Clavulanato de potássio"
 Description: "ingredient Clavulanato de potássio with strength 148.91 as Ativo for 709"
-Usage: #example
+Usage: #inline
 
 * role = $100000072050#100000072072 "active"
 * status = #active
@@ -181,15 +177,15 @@ Usage: #example
 
 // Reference to products item
 
-* for[0] = Reference(mp-709)
-* for[+] = Reference(ap-709)
-* for[+] = Reference(mid-709)
+* for[0] = Reference(PT-Augmentin-500-125-FilmCoatedTablets-MPD)
+* for[+] = Reference(PT-Augmentin-500-125-FilmCoatedTablets-APD)
+* for[+] = Reference(PT-Augmentin-500-125-FilmCoatedTablets-MID)
 
-Instance: auth-25928572732679f98d29b3536c8e63d1
-InstanceOf: PPLRegulatedAuthorization
+Instance: PT-Augmentin-500-125-FilmCoatedTablets-RA
+InstanceOf: MarketingAuthorisationD412
 Title: "Regulated Authorization for Augmentin 500 mg + 125 mg Comprimido revestido por película 16 Comprimido Blister"
 Description: "Regulated Authorization for Augmentin 500 mg + 125 mg Comprimido revestido por película 16 Comprimido Blister"
-Usage: #example
+Usage: #inline
 
 //* id = "709" 
 
@@ -198,7 +194,7 @@ Usage: #example
 * identifier.use = #official
 
 // Reference to MedicinalProductDefinition: 709
-* subject = Reference(mp-709)
+* subject = Reference(PT-Augmentin-500-125-FilmCoatedTablets-MPD)
 
 
 * type = $220000000060#220000000061 "Marketing Authorisation"
@@ -212,11 +208,11 @@ Usage: #example
 
 
 
-Instance: ppd-63241
-InstanceOf: PPLPackagedProductDefinition
+Instance: PT-Augmentin-500-125-FilmCoatedTablets-PPD-63241
+InstanceOf: PackagedProductD412
 Title: "Augmentin 500 mg + 125 mg Comprimido revestido por película 16 Comprimido Blister"
 Description: "Augmentin 500 mg + 125 mg Comprimido revestido por película 16 Comprimido Blister"
-Usage: #example
+Usage: #inline
 
 
 * identifier[pcid].value = "PT-100002296-709-50001639"
@@ -245,11 +241,11 @@ Usage: #example
     //* type = $100000073346#100000073496 "Blister"
     * type = $100000073346#100000073496 "Blister"
 
-    * containedItem.item.reference = Reference(mid-709)
+    * containedItem.item.reference = Reference(PT-Augmentin-500-125-FilmCoatedTablets-MID)
     * containedItem.amount.value = 16
 
 // for: 
-* packageFor = Reference(mp-709)
+* packageFor = Reference(PT-Augmentin-500-125-FilmCoatedTablets-MPD)
 
 
 // Reference to Organization: MAH
