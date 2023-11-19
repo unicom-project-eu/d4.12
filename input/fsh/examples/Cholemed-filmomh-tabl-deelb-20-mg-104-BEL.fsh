@@ -1,3 +1,4 @@
+/*
 Instance: 24ec7206-8353-4a2a-8c13-0a877f293bb7
 InstanceOf: Bundle
 Usage: #example
@@ -103,3 +104,4 @@ Usage: #inline
 * identifier.system = "https://spor.ema.europa.eu/v1/locations"
 * identifier.value = "1558"
 * name = "Amophar"
+*/

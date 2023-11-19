@@ -1,3 +1,12 @@
+Instance: BE-Cholemed-20mg-FilmCoatedTablets
+InstanceOf: Bundle
+Usage: #example
+Description: "Augmentin. Amoxicillin 500mg, clavulanic acid 125mg. Film coated tablets. Portugal."
+* type = #searchset
+
+* entry[+].resource = Cholemed-20mg-BE-MPD
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/MedicinalProductDefinition/Cholemed-20mg-BE-MPD"
+
 Instance: Cholemed-20mg-BE-MPD
 InstanceOf: MedicinalProductD412
 Usage: #example
