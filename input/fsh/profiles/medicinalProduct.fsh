@@ -322,7 +322,7 @@ Description: """Packaged Product data"""
   * containedItem
     * ^short = "An item (inner package or manufactured item) within the packaging"
     * ^definition = "EMA IG 4.9 or 4.8.3"
-    * item only Reference(PackagedProductD412 or TransitionManufacturedItemDefinition)
+    * item only CodeableReference(PackagedProductD412 or TransitionManufacturedItemDefinition)
     * amount
       * ^short = "Number of the manufactured items (e.g. tablets) in this package layer or the amount of manufactured item (e.g. 20 g) in the unit of presentation defined in manufactured item definition"
       * ^definition = "EMA IG 4.11.2"

@@ -30,7 +30,7 @@ Usage: #example
 
 
 Instance: ap-709
-InstanceOf: PPLAdministrableProductDefinition
+InstanceOf: AdministrableProductD412
 Title: "Administrable product Augmentin 500 mg + 125 mg Comprimido revestido por película"
 Description: "Augmentin 500 mg + 125 mg Comprimido revestido por película"
 Usage: #example
@@ -55,7 +55,7 @@ Usage: #example
 
 
 Instance: mp-709
-InstanceOf: PPLMedicinalProductDefinition
+InstanceOf: MedicinalProductD412
 Title: "Medicinal Product Augmentin 500 mg + 125 mg Comprimido revestido por película"
 Description: "Augmentin 500 mg + 125 mg Comprimido revestido por película (709)"
 Usage: #example
@@ -100,7 +100,7 @@ Usage: #example
 
 
 Instance: mid-709
-InstanceOf: PPLManufacturedItemDefinition
+InstanceOf: TransitionManufacturedItemDefinition
 Title: "Manufactured item Augmentin 500 mg + 125 mg Comprimido revestido por película"
 Description: "Augmentin 500 mg + 125 mg Comprimido revestido por película"
 Usage: #example
@@ -118,7 +118,7 @@ Usage: #example
 *  manufacturer = Reference(LOC-100002296)
 
 Instance: LOC-100002296
-InstanceOf: PPLOrganization
+InstanceOf: OrganizationD412
 Title: "GlaxoSmithkline Produtos Farmacêuticos, Lda."
 Description: "GlaxoSmithkline Produtos Farmacêuticos, Lda. MAH"
 Usage: #example
@@ -129,7 +129,7 @@ Usage: #example
 
 //Amoxicilina tri-hidratada//345; 346
 Instance: ingredient-837ad7154cf5d94c9f0e79be570d1942
-InstanceOf: PPLIngredient
+InstanceOf: IngredientD412
 Title: "Amoxicilina tri-hidratada"
 Description: "ingredient Amoxicilina tri-hidratada with strength 573.96 as Ativo for 709"
 Usage: #example
@@ -158,7 +158,7 @@ Usage: #example
 
 //Clavulanato de potássio//345; 346
 Instance: ingredient-f671e1a8c419e11c17fd1058437b6c57
-InstanceOf: PPLIngredient
+InstanceOf: IngredientD412
 Title: "Clavulanato de potássio"
 Description: "ingredient Clavulanato de potássio with strength 148.91 as Ativo for 709"
 Usage: #example
@@ -186,7 +186,7 @@ Usage: #example
 * for[+] = Reference(mid-709)
 
 Instance: auth-25928572732679f98d29b3536c8e63d1
-InstanceOf: PPLRegulatedAuthorization
+InstanceOf: MarketingAuthorisationD412
 Title: "Regulated Authorization for Augmentin 500 mg + 125 mg Comprimido revestido por película 16 Comprimido Blister"
 Description: "Regulated Authorization for Augmentin 500 mg + 125 mg Comprimido revestido por película 16 Comprimido Blister"
 Usage: #example
@@ -213,7 +213,7 @@ Usage: #example
 
 
 Instance: ppd-63241
-InstanceOf: PPLPackagedProductDefinition
+InstanceOf: PackagedProductD412
 Title: "Augmentin 500 mg + 125 mg Comprimido revestido por película 16 Comprimido Blister"
 Description: "Augmentin 500 mg + 125 mg Comprimido revestido por película 16 Comprimido Blister"
 Usage: #example

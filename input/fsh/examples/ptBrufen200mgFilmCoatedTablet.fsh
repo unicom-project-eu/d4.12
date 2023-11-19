@@ -3,33 +3,30 @@ InstanceOf: Bundle
 Usage: #example
 * type = #collection
 
-* entry[+].resource = mp-711
-* entry[=].fullUrl = "mp-711"
+* entry[+].resource = mp-1257
+* entry[=].fullUrl = "mp-1257"
 
-* entry[+].resource = ap-711
-* entry[=].fullUrl = "ap-711"
+* entry[+].resource = ap-1257
+* entry[=].fullUrl = "ap-1257"
 
-* entry[+].resource = mid-711
-* entry[=].fullUrl = "mid-711"
+* entry[+].resource = mid-1257
+* entry[=].fullUrl = "mid-1257"
 
-* entry[+].resource = LOC-100002296
-* entry[=].fullUrl = "LOC-100002296"
+* entry[+].resource = LOC-100001337
+* entry[=].fullUrl = "LOC-100001337"
 
-* entry[+].resource = ingredient-995936cb3157f2c7cd2882a63b3b0989
-* entry[=].fullUrl = "ingredient-995936cb3157f2c7cd2882a63b3b0989"
+* entry[+].resource = ingredient-eccfe2bb04a4e9d66f6a634e7317d8ac
+* entry[=].fullUrl = "ingredient-eccfe2bb04a4e9d66f6a634e7317d8ac"
 
-* entry[+].resource = ingredient-fa113063a90b9c5e88e41dd43c16feaa
-* entry[=].fullUrl = "ingredient-fa113063a90b9c5e88e41dd43c16feaa"
+* entry[+].resource = auth-f20f1907c151209f2bf5622c97957adc
+* entry[=].fullUrl = "auth-f20f1907c151209f2bf5622c97957adc"
 
-* entry[+].resource = auth-43b819a7b0113178341ea344cbfcffcb
-* entry[=].fullUrl = "auth-43b819a7b0113178341ea344cbfcffcb"
-
-* entry[+].resource = ppd-1215
-* entry[=].fullUrl = "ppd-1215"
+* entry[+].resource = ppd-2052
+* entry[=].fullUrl = "ppd-2052"
 
 
 Instance: mid-1257
-InstanceOf: PPLManufacturedItemDefinition
+InstanceOf: TransitionManufacturedItemDefinition
 Title: "Manufactured item Brufen 200 mg Comprimido revestido por película"
 Description: "Brufen 200 mg Comprimido revestido por película"
 Usage: #example
@@ -49,7 +46,7 @@ Usage: #example
 
 
 Instance: ap-1257
-InstanceOf: PPLAdministrableProductDefinition
+InstanceOf: AdministrableProductD412
 Title: "Administrable product Brufen 200 mg Comprimido revestido por película"
 Description: "Brufen 200 mg Comprimido revestido por película"
 Usage: #example
@@ -80,7 +77,7 @@ Usage: #example
 
 //Ibuprofeno//11913
 Instance: ingredient-eccfe2bb04a4e9d66f6a634e7317d8ac
-InstanceOf: PPLIngredient
+InstanceOf: IngredientD412
 Title: "Ibuprofeno"
 Description: "ingredient Ibuprofeno with strength 200.0 as Ativo for 1257"
 Usage: #example
@@ -110,7 +107,7 @@ Usage: #example
 
 
 Instance: mp-1257
-InstanceOf: PPLMedicinalProductDefinition
+InstanceOf: MedicinalProductD412
 Title: "Medicinal Product Brufen 200 mg Comprimido revestido por película"
 Description: "Brufen 200 mg Comprimido revestido por película (1257)"
 Usage: #example
@@ -155,7 +152,7 @@ Usage: #example
 
 
 Instance: ppd-2052
-InstanceOf: PPLPackagedProductDefinition
+InstanceOf: PackagedProductD412
 Title: "Brufen 200 mg Comprimido revestido por película 60 Comprimido Blister"
 Description: "Brufen 200 mg Comprimido revestido por película 60 Comprimido Blister"
 Usage: #example
@@ -200,7 +197,7 @@ Usage: #example
 
 
 Instance: auth-f20f1907c151209f2bf5622c97957adc
-InstanceOf: PPLRegulatedAuthorization
+InstanceOf: MarketingAuthorisationD412
 Title: "Regulated Authorization for Brufen 200 mg Comprimido revestido por película 60 Comprimido Blister"
 Description: "Regulated Authorization for Brufen 200 mg Comprimido revestido por película 60 Comprimido Blister"
 Usage: #example
@@ -225,7 +222,7 @@ Usage: #example
 * holder = Reference(LOC-100001337)
 
 Instance: LOC-100001337
-InstanceOf: PPLOrganization
+InstanceOf: OrganizationD412
 Title: "BGP Products, Unipessoal Lda."
 Description: "BGP Products, Unipessoal Lda. MAH"
 Usage: #example
