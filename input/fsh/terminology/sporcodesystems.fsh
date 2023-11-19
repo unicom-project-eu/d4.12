@@ -2816,6 +2816,7 @@ Description: "ATC classification recoded with EMA SPOR RMS codes. Flat list, WHO
 * #100000096183 "cefuroxime" "J01DC02"
 * #100000094669 "ibuprofen" "C01EB16"
 * #100000095169 "simvastatin" "C10AA01"
+* #100000095065 "amlodipine" "C08CA01"
 
 CodeSystem: CombinationPackage_EMA_CS
 Id: combination-package-ema-cs
