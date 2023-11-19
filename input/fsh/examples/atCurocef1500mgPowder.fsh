@@ -4,30 +4,30 @@ Usage: #example
 Description: "Curocef 1500mg Powder for solution for injection/infusion. Austria."
 
 
-* type = #collection
+* type = #searchset
 * entry[0].resource = Curocef-1500mg-Powder-AT-MPD
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition-Curocef-1500mg-Powder-AT-MPD"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12http://unicom-project.eu/fhir/d4-12/MedicinalProductDefinition-Curocef-1500mg-Powder-AT-MPD"
 
 * entry[+].resource = Curocef-1500mg-Powder-AT-RA
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization-Curocef-1500mg-Powder-AT-RA"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12http://unicom-project.eu/fhir/d4-12/RegulatedAuthorization-Curocef-1500mg-Powder-AT-RA"
 
 * entry[+].resource = LOC-100000450
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organization-LOC-100000450"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12http://unicom-project.eu/fhir/d4-12/Organization-LOC-100000450"
 
 * entry[+].resource = Curocef-1500mg-Powder-AT-APD
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition-Curocef-1500mg-Powder-AT-APD"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12http://unicom-project.eu/fhir/d4-12/AdministrableProductDefinition-Curocef-1500mg-Powder-AT-APD"
 
 * entry[+].resource = Curocef-1500mg-Powder-AT-PPD-128827002
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition-Curocef-1500mg-Powder-AT-PPD-128827002"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12http://unicom-project.eu/fhir/d4-12/PackagedProductDefinition-Curocef-1500mg-Powder-AT-PPD-128827002"
 
 * entry[+].resource = Curocef-1500mg-Powder-AT-PPD-128827001
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition-Curocef-1500mg-Powder-AT-PPD-128827001"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12http://unicom-project.eu/fhir/d4-12/PackagedProductDefinition-Curocef-1500mg-Powder-AT-PPD-128827001"
 
 * entry[+].resource = Curocef-1500mg-Powder-AT-MID
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition-Curocef-1500mg-Powder-AT-MID"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12http://unicom-project.eu/fhir/d4-12/ManufacturedItemDefinition-Curocef-1500mg-Powder-AT-MID"
 
 * entry[+].resource = Curocef-1500mg-Powder-AT-Ingredient
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient-Curocef-1500mg-Powder-AT-Ingredient"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12http://unicom-project.eu/fhir/d4-12/Ingredient-Curocef-1500mg-Powder-AT-Ingredient"
 
 
 Instance: Curocef-1500mg-Powder-AT-MPD

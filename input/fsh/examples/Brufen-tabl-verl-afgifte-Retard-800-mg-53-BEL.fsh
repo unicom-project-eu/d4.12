@@ -1,26 +1,26 @@
 Instance: 7342da26-03e8-4e03-8b01-fe677d73da33
 InstanceOf: Bundle
 Usage: #example
-* type = #searchset
-* entry[0].fullUrl = "MedicinalProductDefinition/Brufen-tabl-verl-afgifte-Retard-800-mg-53-BEL-MPD"
+* type = #collection
+* entry[0].fullUrl = "http://unicom-project.eu/fhir/d4-12/MedicinalProductDefinition/Brufen-tabl-verl-afgifte-Retard-800-mg-53-BEL-MPD"
 * entry[=].resource = Brufen-tabl-verl-afgifte-Retard-800-mg-53-BEL-MPD
 * entry[=].search.mode = #match
-* entry[+].fullUrl = "PackagedProductDefinition/Brufen-tabl-verl-afgifte-Retard-800-mg-53-BEL-PPD"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/PackagedProductDefinition/Brufen-tabl-verl-afgifte-Retard-800-mg-53-BEL-PPD"
 * entry[=].resource = Brufen-tabl-verl-afgifte-Retard-800-mg-53-BEL-PPD
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "AdministrableProductDefinition/Brufen-tabl-verl-afgifte-Retard-800-mg-53-BEL-APD"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/AdministrableProductDefinition/Brufen-tabl-verl-afgifte-Retard-800-mg-53-BEL-APD"
 * entry[=].resource = Brufen-tabl-verl-afgifte-Retard-800-mg-53-BEL-APD
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "Ingredient/I-BEL-53-Brufen-tabl-verl-afgifte-Retard-800-mg"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/Ingredient/I-BEL-53-Brufen-tabl-verl-afgifte-Retard-800-mg"
 * entry[=].resource = I-BEL-53-Brufen-tabl-verl-afgifte-Retard-800-mg
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "RegulatedAuthorization/Brufen-tabl-verl-afgifte-Retard-800-mg-53-BEL-RA"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/RegulatedAuthorization/Brufen-tabl-verl-afgifte-Retard-800-mg-53-BEL-RA"
 * entry[=].resource = Brufen-tabl-verl-afgifte-Retard-800-mg-53-BEL-RA
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "Organization/LOC-1447-Mylan-EPD"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/Organization/LOC-1447-Mylan-EPD"
 * entry[=].resource = LOC-1447-Mylan-EPD
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "ManufacturedItemDefinition/Brufen-tabl-verl-afgifte-Retard-800-mg-53-BEL-MID"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/ManufacturedItemDefinition/Brufen-tabl-verl-afgifte-Retard-800-mg-53-BEL-MID"
 * entry[=].resource = Brufen-tabl-verl-afgifte-Retard-800-mg-53-BEL-MID
 * entry[=].search.mode = #include
 
@@ -92,7 +92,7 @@ Usage: #inline
 * substance.code.concept = $sms#100000090365 "Ibuprofen"
 * substance.strength.presentationRatio.numerator = 800 https://spor.ema.europa.eu/v1/lists/100000110633#100000110655 "milligram(s)"
 * substance.strength.presentationRatio.denominator = 1 https://spor.ema.europa.eu/v1/lists/100000110633#200000002152 "Tablet"
-* substance.strength.referenceStrength.substance.concept = $sms#100000090365 "ibuprofen "
+* substance.strength.referenceStrength.substance.concept = $sms#100000090365 "Ibuprofen"
 * substance.strength.referenceStrength.strengthRatio.numerator = 800 https://spor.ema.europa.eu/v1/lists/100000110633#100000110655 "milligram(s)"
 * substance.strength.referenceStrength.strengthRatio.denominator = 1 https://spor.ema.europa.eu/v1/lists/100000110633#200000002152 "Tablet"
 

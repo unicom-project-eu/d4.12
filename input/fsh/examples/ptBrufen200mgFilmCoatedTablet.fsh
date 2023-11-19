@@ -2,28 +2,28 @@ Instance: PT-Brufen-200-FilmCoatedTablet
 InstanceOf: Bundle
 Usage: #example
 Description: "Brufen. Ibuprofen 200mg. Film coated tablets. Portugal."
-* type = #collection
+* type = #searchset
 
 * entry[+].resource = mp-1257
-* entry[=].fullUrl = "mp-1257"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/MedicinalProductDefinition/mp-1257"
 
 * entry[+].resource = ap-1257
-* entry[=].fullUrl = "ap-1257"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/AdministrableProductDefinition/ap-1257"
 
 * entry[+].resource = mid-1257
-* entry[=].fullUrl = "mid-1257"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/ManufacturedItemDefinition/mid-1257"
 
 * entry[+].resource = LOC-100001337
-* entry[=].fullUrl = "LOC-100001337"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/Organization/LOC-100001337"
 
 * entry[+].resource = ingredient-eccfe2bb04a4e9d66f6a634e7317d8ac
-* entry[=].fullUrl = "ingredient-eccfe2bb04a4e9d66f6a634e7317d8ac"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/Ingredient/ingredient-eccfe2bb04a4e9d66f6a634e7317d8ac"
 
 * entry[+].resource = auth-f20f1907c151209f2bf5622c97957adc
-* entry[=].fullUrl = "auth-f20f1907c151209f2bf5622c97957adc"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/RegulatedAuthorization/auth-f20f1907c151209f2bf5622c97957adc"
 
 * entry[+].resource = ppd-2052
-* entry[=].fullUrl = "ppd-2052"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/PackagedProductDefinition/ppd-2052"
 
 
 Instance: mid-1257

@@ -3,56 +3,56 @@ InstanceOf: Bundle
 Usage: #example
 Description: "Betaklav. Amoxicillin 500mg, clavulanic acid 125mg. Tablets. Estonia."
 
-* type = #collection
+* type = #searchset
 * entry[0].resource = Betaklav-500mg-125mg-EE-MPD
 //* entry[=].request.method = #PUT
 //* entry[=].request.url = "MedicinalProductDefinition/Betaklav-500mg-125mg-EE-MPD"
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/MedicinalProductDefinition-Betaklav-500mg-125mg-EE-MPD"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/MedicinalProductDefinition-Betaklav-500mg-125mg-EE-MPD"
 
 * entry[+].resource = Betaklav-500mg-125mg-EE-RA
 //* entry[=].request.method = #PUT
 //* entry[=].request.url = "RegulatedAuthorization/Betaklav-500mg-125mg-EE-RA"
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/RegulatedAuthorization-Betaklav-500mg-125mg-EE-RA"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/RegulatedAuthorization-Betaklav-500mg-125mg-EE-RA"
 
 * entry[+].resource = LOC-100009540-KrkaNovoMesto
 //* entry[=].request.method = #PUT
 //* entry[=].request.url = "Organization/LOC-100009540-KrkaNovoMesto"
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/Organization-LOC-100009540-KrkaNovoMesto"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/Organization-LOC-100009540-KrkaNovoMesto"
 
 * entry[+].resource = Betaklav-500mg-125mg-EE-APD
 //* entry[=].request.method = #PUT
 //* entry[=].request.url = "AdministrableProductDefinition/Betaklav-500mg-125mg-EE-APD"
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/AdministrableProductDefinition-Betaklav-500mg-125mg-EE-APD"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/AdministrableProductDefinition-Betaklav-500mg-125mg-EE-APD"
 
 * entry[+].resource = Betaklav-500mg-125mg-EE-MID
 //* entry[=].request.method = #PUT
 //* entry[=].request.url = "ManufacturedItemDefinition/Betaklav-500mg-125mg-EE-MID"
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/ManufacturedItemDefinition-Betaklav-500mg-125mg-EE-MID"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/ManufacturedItemDefinition-Betaklav-500mg-125mg-EE-MID"
 
 * entry[+].resource = Betaklav-500mg-125mg-EE-I-100000092629
 //* entry[=].request.method = #PUT
 //* entry[=].request.url = "Ingredient/Betaklav-500mg-125mg-EE-I-100000092629"
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/Ingredient-Betaklav-500mg-125mg-EE-I-100000092629"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/Ingredient-Betaklav-500mg-125mg-EE-I-100000092629"
 
 * entry[+].resource = Betaklav-500mg-125mg-EE-I-100000093061
 //* entry[=].request.method = #PUT
 //* entry[=].request.url = "Ingredient/Betaklav-500mg-125mg-EE-I-100000093061"
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/Ingredient-Betaklav-500mg-125mg-EE-I-100000093061"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/Ingredient-Betaklav-500mg-125mg-EE-I-100000093061"
 
 * entry[+].resource = Betaklav-500mg-125mg-EE-PPD-1635117
 //* entry[=].request.method = #PUT
 //* entry[=].request.url = "PackagedProductDefinition/Betaklav-500mg-125mg-EE-PPD-1635117"
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/PackagedProductDefinition-Betaklav-500mg-125mg-EE-PPD-1635117"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/PackagedProductDefinition-Betaklav-500mg-125mg-EE-PPD-1635117"
 
 * entry[+].resource = Betaklav-500mg-125mg-EE-PPD-1635207
 //* entry[=].request.method = #PUT
 //* entry[=].request.url = "PackagedProductDefinition/Betaklav-500mg-125mg-EE-PPD-1635207"
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/PackagedProductDefinition-Betaklav-500mg-125mg-EE-PPD-1635207"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/PackagedProductDefinition-Betaklav-500mg-125mg-EE-PPD-1635207"
 
 * entry[+].resource = Betaklav-500mg-125mg-EE-PPD-1635139
 //* entry[=].request.method = #PUT
 //* entry[=].request.url = "PackagedProductDefinition/Betaklav-500mg-125mg-EE-PPD-1635139"
-* entry[=].fullUrl = "https://hl7-eu.github.io/unicom-ig/PackagedProductDefinition-Betaklav-500mg-125mg-EE-PPD-1635139"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/PackagedProductDefinition-Betaklav-500mg-125mg-EE-PPD-1635139"
 
 
 Instance: Betaklav-500mg-125mg-EE-MPD

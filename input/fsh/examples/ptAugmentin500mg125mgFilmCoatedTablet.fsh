@@ -2,31 +2,31 @@ Instance: PT-Augmentin-500-125-FilmCoatedTablets
 InstanceOf: Bundle
 Usage: #example
 Description: "Augmentin. Amoxicillin 500mg, clavulanic acid 125mg. Film coated tablets. Portugal."
-* type = #collection
+* type = #searchset
 
 * entry[+].resource = PT-Augmentin-500-125-FilmCoatedTablets-MPD
-* entry[=].fullUrl = "PT-Augmentin-500-125-FilmCoatedTablets-MPD"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/MedicinalProductDefinition/PT-Augmentin-500-125-FilmCoatedTablets-MPD"
 
 * entry[+].resource = PT-Augmentin-500-125-FilmCoatedTablets-APD
-* entry[=].fullUrl = "PT-Augmentin-500-125-FilmCoatedTablets-APD"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/AdministrableProductDefinition/PT-Augmentin-500-125-FilmCoatedTablets-APD"
 
 * entry[+].resource = PT-Augmentin-500-125-FilmCoatedTablets-MID
-* entry[=].fullUrl = "PT-Augmentin-500-125-FilmCoatedTablets-MID"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/ManufacturedItemDefinition/PT-Augmentin-500-125-FilmCoatedTablets-MID"
 
 * entry[+].resource = LOC-100002296
-* entry[=].fullUrl = "LOC-100002296"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/Organization/LOC-100002296"
 
 * entry[+].resource = ingredient-837ad7154cf5d94c9f0e79be570d1942
-* entry[=].fullUrl = "ingredient-837ad7154cf5d94c9f0e79be570d1942"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/Ingredient/ingredient-837ad7154cf5d94c9f0e79be570d1942"
 
 * entry[+].resource = ingredient-f671e1a8c419e11c17fd1058437b6c57
-* entry[=].fullUrl = "ingredient-f671e1a8c419e11c17fd1058437b6c57"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/Ingredient/ingredient-f671e1a8c419e11c17fd1058437b6c57"
 
 * entry[+].resource = PT-Augmentin-500-125-FilmCoatedTablets-RA
-* entry[=].fullUrl = "PT-Augmentin-500-125-FilmCoatedTablets-RA"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/RegulatedAuthorization/PT-Augmentin-500-125-FilmCoatedTablets-RA"
 
 * entry[+].resource = PT-Augmentin-500-125-FilmCoatedTablets-PPD-63241
-* entry[=].fullUrl = "PT-Augmentin-500-125-FilmCoatedTablets-PPD-63241"
+* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/PackagedProductDefinition/PT-Augmentin-500-125-FilmCoatedTablets-PPD-63241"
 
 Instance: PT-Augmentin-500-125-FilmCoatedTablets-APD
 InstanceOf: AdministrableProductD412

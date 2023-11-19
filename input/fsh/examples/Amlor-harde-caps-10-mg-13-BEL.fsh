@@ -1,36 +1,32 @@
 Instance: ffc4799a-9e3f-42de-9c0b-656f0e19daa1
 InstanceOf: Bundle
 Usage: #example
-* type = #searchset
-* entry[0].fullUrl = "MedicinalProductDefinition/Amlor-harde-caps-10-mg-13-BEL-MPD"
+* type = #collection
+* entry[0].fullUrl = "http://unicom-project.eu/fhir/d4-12/MedicinalProductDefinition/Amlor-harde-caps-10-mg-13-BEL-MPD"
 * entry[=].resource = Amlor-harde-caps-10-mg-13-BEL-MPD
 * entry[=].search.mode = #match
-* entry[+].fullUrl = "Ingredient/I-BEL-13-Amlor-harde-caps-10-mg"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/Ingredient/I-BEL-13-Amlor-harde-caps-10-mg"
 * entry[=].resource = I-BEL-13-Amlor-harde-caps-10-mg
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "AdministrableProductDefinition/Amlor-harde-caps-10-mg-13-BEL-APD"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/AdministrableProductDefinition/Amlor-harde-caps-10-mg-13-BEL-APD"
 * entry[=].resource = Amlor-harde-caps-10-mg-13-BEL-APD
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "PackagedProductDefinition/Amlor-harde-caps-10-mg-13-BEL-PPD"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/PackagedProductDefinition/Amlor-harde-caps-10-mg-13-BEL-PPD"
 * entry[=].resource = Amlor-harde-caps-10-mg-13-BEL-PPD
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "RegulatedAuthorization/Amlor-harde-caps-10-mg-13-BEL-RA"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/RegulatedAuthorization/Amlor-harde-caps-10-mg-13-BEL-RA"
 * entry[=].resource = Amlor-harde-caps-10-mg-13-BEL-RA
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "ManufacturedItemDefinition/Amlor-harde-caps-10-mg-13-BEL-MID"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/ManufacturedItemDefinition/Amlor-harde-caps-10-mg-13-BEL-MID"
 * entry[=].resource = Amlor-harde-caps-10-mg-13-BEL-MID
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "Organization/LOC-1300-Upjohn"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/Organization/LOC-1300-Upjohn"
 * entry[=].resource = LOC-1300-Upjohn
 * entry[=].search.mode = #include
 
 Instance: Amlor-harde-caps-10-mg-13-BEL-MPD
-InstanceOf: MedicinalProductDefinition
+InstanceOf: MedicinalProductD412
 Usage: #inline
-* meta.versionId = "3"
-* meta.lastUpdated = "2023-07-26T13:03:18.505+00:00"
-* meta.source = "#clCbG8PBgto4MM0B"
-* meta.profile = "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
 * identifier.system = "http://ema.europa.eu/fhir/mpId"
 * identifier.value = "Amlor-harde-caps-10-mg-13-BEL-MPD"
 * domain = $100000000004#100000000012 "Human use"
@@ -44,12 +40,8 @@ Usage: #inline
 * name.usage.language = $100000072057#100000072169 "Dutch"
 
 Instance: I-BEL-13-Amlor-harde-caps-10-mg
-InstanceOf: Ingredient
+InstanceOf: IngredientD412
 Usage: #inline
-* meta.versionId = "1"
-* meta.lastUpdated = "2023-07-17T14:12:40.735+00:00"
-* meta.source = "#xsRFugJTidBDtVx4"
-* meta.profile = "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
 * status = #active
 * for[0] = Reference(Amlor-harde-caps-10-mg-13-BEL-MPD)
 * for[+] = Reference(Amlor-harde-caps-10-mg-13-BEL-MID)
@@ -63,12 +55,8 @@ Usage: #inline
 * substance.strength.referenceStrength.strengthRatio.denominator = 1 https://spor.ema.europa.eu/v1/lists/100000110633#200000002113 "Capsule"
 
 Instance: Amlor-harde-caps-10-mg-13-BEL-APD
-InstanceOf: AdministrableProductDefinition
+InstanceOf: AdministrableProductD412
 Usage: #inline
-* meta.versionId = "1"
-* meta.lastUpdated = "2023-05-18T13:59:47.676+00:00"
-* meta.source = "#E4ZfOh2XRHArGRNT"
-* meta.profile = "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
 * status = #active
 * formOf = Reference(Amlor-harde-caps-10-mg-13-BEL-MPD)
 * administrableDoseForm = $200000000004#100000073375 "Capsule, hard"
@@ -97,12 +85,8 @@ Usage: #inline
 * packaging.packaging.containedItem.amount.value = 30
 
 Instance: Amlor-harde-caps-10-mg-13-BEL-RA
-InstanceOf: RegulatedAuthorization
+InstanceOf: MarketingAuthorisationD412
 Usage: #inline
-* meta.versionId = "1"
-* meta.lastUpdated = "2023-05-18T13:03:39.763+00:00"
-* meta.source = "#gXjihq12KBIsWjon"
-* meta.profile = "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
 * identifier.value = "1300"
 * subject = Reference(Amlor-harde-caps-10-mg-13-BEL-MPD)
 * type = $220000000060#220000000061 "Marketing Authorisation"
@@ -111,23 +95,15 @@ Usage: #inline
 * holder = Reference(LOC-1300-Upjohn)
 
 Instance: Amlor-harde-caps-10-mg-13-BEL-MID
-InstanceOf: ManufacturedItemDefinition
+InstanceOf: ManufacturedItemD412
 Usage: #inline
-* meta.versionId = "1"
-* meta.lastUpdated = "2023-05-18T10:45:25.400+00:00"
-* meta.source = "#5iELIkpeyyGnLDY6"
-* meta.profile = "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
 * status = #active
 * manufacturedDoseForm = $200000000004#100000073375 "Capsule, hard"
 * unitOfPresentation = $200000000014#200000002113 "Capsule"
 
 Instance: LOC-1300-Upjohn
-InstanceOf: Organization
+InstanceOf: OrganizationD412
 Usage: #inline
-* meta.versionId = "1"
-* meta.lastUpdated = "2023-05-18T10:23:45.960+00:00"
-* meta.source = "#A4RXymECarIvYXaS"
-* meta.profile = "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
 * identifier.system = "https://spor.ema.europa.eu/v1/locations"
 * identifier.value = "1300"
 * name = "Upjohn"

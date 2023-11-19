@@ -1,26 +1,26 @@
 Instance: 7e4bb050-45dc-45f0-a8a2-58946a1765b1
 InstanceOf: Bundle
 Usage: #example
-* type = #searchset
-* entry[0].fullUrl = "MedicinalProductDefinition/Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-MPD"
+* type = #collection
+* entry[0].fullUrl = "http://unicom-project.eu/fhir/d4-12/MedicinalProductDefinition/Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-MPD"
 * entry[=].resource = Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-MPD
 * entry[=].search.mode = #match
-* entry[+].fullUrl = "PackagedProductDefinition/Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-PPD"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/PackagedProductDefinition/Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-PPD"
 * entry[=].resource = Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-PPD
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "AdministrableProductDefinition/Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-APD"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/AdministrableProductDefinition/Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-APD"
 * entry[=].resource = Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-APD
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "RegulatedAuthorization/Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-RA"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/RegulatedAuthorization/Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-RA"
 * entry[=].resource = Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-RA
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "Ingredient/I-BEL-48-Pedea-inf-oploss-i-v-amp-10-mg-2-ml"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/Ingredient/I-BEL-48-Pedea-inf-oploss-i-v-amp-10-mg-2-ml"
 * entry[=].resource = I-BEL-48-Pedea-inf-oploss-i-v-amp-10-mg-2-ml
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "Organization/LOC-2519-Recordati"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/Organization/LOC-2519-Recordati"
 * entry[=].resource = LOC-2519-Recordati
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "ManufacturedItemDefinition/Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-MID"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/ManufacturedItemDefinition/Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-MID"
 * entry[=].resource = Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-MID
 * entry[=].search.mode = #include
 

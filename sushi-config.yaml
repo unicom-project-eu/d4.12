@@ -7,9 +7,9 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 
-id: idmp-datafeed
+id: unicom.fhir.idmp-datafeed
 canonical: http://unicom-project.eu/fhir/d4-12
-url: http://unicom-project.eu/fhir/d4-12/ImplementationGuide/idmp-datafeed
+url: http://unicom-project.eu/fhir/d4-12/ImplementationGuide/unicom.fhir.idmp-datafeed
 name: D4-12
 title: "Prototype ISO IDMP Compliant Datafeed to eHealth (Deliverable D4.12)"
 description: The aim of the deliverable is to provide example specification for publishing ISO IDMP compliant data to national eHealth users and beyond. It follows EMA Implementation Guide, but also includes additional elements, that are relevant for most countries on national level (e.g shortages information, etc).

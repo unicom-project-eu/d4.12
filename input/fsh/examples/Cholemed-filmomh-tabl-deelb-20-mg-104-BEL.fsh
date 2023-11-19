@@ -2,25 +2,25 @@ Instance: 24ec7206-8353-4a2a-8c13-0a877f293bb7
 InstanceOf: Bundle
 Usage: #example
 * type = #searchset
-* entry[0].fullUrl = "MedicinalProductDefinition/Cholemed-filmomh-tabl-deelb-20-mg-104-BEL-MPD"
+* entry[0].fullUrl = "http://unicom-project.eu/fhir/d4-12/MedicinalProductDefinition/Cholemed-filmomh-tabl-deelb-20-mg-104-BEL-MPD"
 * entry[=].resource = Cholemed-filmomh-tabl-deelb-20-mg-104-BEL-MPD
 * entry[=].search.mode = #match
-* entry[+].fullUrl = "AdministrableProductDefinition/Cholemed-filmomh-tabl-deelb-20-mg-104-BEL-APD"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/AdministrableProductDefinition/Cholemed-filmomh-tabl-deelb-20-mg-104-BEL-APD"
 * entry[=].resource = Cholemed-filmomh-tabl-deelb-20-mg-104-BEL-APD
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "I-BEL-104-Cholemed-filmomh-tabl-deelb-20-mg"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/I-BEL-104-Cholemed-filmomh-tabl-deelb-20-mg"
 * entry[=].resource = I-BEL-104-Cholemed-filmomh-tabl-deelb-20-mg
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "PackagedProductDefinition/Cholemed-filmomh-tabl-deelb-20-mg-104-BEL-PPD"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/PackagedProductDefinition/Cholemed-filmomh-tabl-deelb-20-mg-104-BEL-PPD"
 * entry[=].resource = Cholemed-filmomh-tabl-deelb-20-mg-104-BEL-PPD
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "RegulatedAuthorization/Cholemed-filmomh-tabl-deelb-20-mg-104-BEL-RA"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/RegulatedAuthorization/Cholemed-filmomh-tabl-deelb-20-mg-104-BEL-RA"
 * entry[=].resource = Cholemed-filmomh-tabl-deelb-20-mg-104-BEL-RA
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "ManufacturedItemDefinition/Cholemed-filmomh-tabl-deelb-20-mg-104-BEL-MID"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/ManufacturedItemDefinition/Cholemed-filmomh-tabl-deelb-20-mg-104-BEL-MID"
 * entry[=].resource = Cholemed-filmomh-tabl-deelb-20-mg-104-BEL-MID
 * entry[=].search.mode = #include
-* entry[+].fullUrl = "Organization/LOC-1558-Amophar"
+* entry[+].fullUrl = "http://unicom-project.eu/fhir/d4-12/Organization/LOC-1558-Amophar"
 * entry[=].resource = LOC-1558-Amophar
 * entry[=].search.mode = #include
 
@@ -30,7 +30,7 @@ Usage: #inline
 * identifier.system = "http://ema.europa.eu/fhir/mpId"
 * identifier.value = "Cholemed-filmomh-tabl-deelb-20-mg-104-BEL-MPD"
 * domain = $100000000004#100000000012 "Human use"
-* status = $200000005003#200000005004 "Provisional"
+* status = $200000005003#200000005004 "Current"
 * combinedPharmaceuticalDoseForm = $200000000004#100000073665 "Film-coated tablet"
 * legalStatusOfSupply = $100000072051#100000072084 "Medicinal Product subject to medical prescription"
 * classification[0] = $100000093533#100000095169 "simvastatin"
