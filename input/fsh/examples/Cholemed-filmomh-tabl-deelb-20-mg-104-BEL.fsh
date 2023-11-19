@@ -91,7 +91,7 @@ Usage: #inline
 * holder = Reference(LOC-1558-Amophar)
 
 Instance: Cholemed-filmomh-tabl-deelb-20-mg-104-BEL-MID
-InstanceOf: TransitionManufacturedItemDefinition
+InstanceOf: ManufacturedItemD412
 Usage: #inline
 * status = #active
 * manufacturedDoseForm = $200000000004#100000073665 "Film-coated tablet"

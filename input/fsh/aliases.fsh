@@ -24,7 +24,8 @@ Alias: $100000072052 = https://spor.ema.europa.eu/v1/lists/100000072052 // Marke
 Alias: $100000073346 = https://spor.ema.europa.eu/v1/lists/100000073346 // Packaging
 Alias: $200000003199 = https://spor.ema.europa.eu/v1/lists/200000003199 // Material
 Alias: $100000073343 = https://spor.ema.europa.eu/v1/lists/100000073343 // Shelf Life Type
-
+Alias: $100000073344 = https://spor.ema.europa.eu/v1/lists/100000073344 // Special precautions for storage
+Alias: $220000000000 = https://spor.ema.europa.eu/v1/lists/220000000000 // Medicinal Product Name Part Type
 
 Alias: $sms = https://spor.ema.europa.eu/v2/SubstanceDefinition // EMA SPOR Substance Management System
 

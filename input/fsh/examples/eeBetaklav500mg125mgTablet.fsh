@@ -1,7 +1,7 @@
-Instance: 011-Betaklav500-125-EE-FullProduct
+Instance: EE-Betaklav500-125-Tablet
 InstanceOf: Bundle
 Usage: #example
-Description: "Amoxicillin 500mg, clavulanic acid 125mg. Tablets. Estonia."
+Description: "Betaklav. Amoxicillin 500mg, clavulanic acid 125mg. Tablets. Estonia."
 
 * type = #collection
 * entry[0].resource = Betaklav-500mg-125mg-EE-MPD
@@ -112,7 +112,7 @@ Usage: #inline
 
 
 Instance: Betaklav-500mg-125mg-EE-MID
-InstanceOf: TransitionManufacturedItemDefinition
+InstanceOf: ManufacturedItemD412
 Usage: #inline
 * status = #active
 * manufacturedDoseForm = $200000000004#100000073665 "Film-coated tablet"

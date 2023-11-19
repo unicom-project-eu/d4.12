@@ -2613,6 +2613,7 @@ Description: "Country codes by EMA. Based on ISO 3166-1-2, recoded with RMS code
 * #100000000388 "Republic of Estonia"
 * #100000000337 "Kingdom of Belgium"
 * #100000000501 "Portuguese Republic"
+* #100000000330 "Austria"
 
 
 CodeSystem: CombinedTerm_EMA_CS
@@ -2810,7 +2811,12 @@ Description: "ATC classification recoded with EMA SPOR RMS codes. Flat list, WHO
 * #100000098548 "DECONGESTANTS AND ANTIALLERGICS" "S01G"
 * #100000096401 "Other drugs for treatment of tuberculosis" "J04AK"
 * #100000095277 "Antifungals for systemic use" "D01BA"
-
+* #100000096162 "amoxicillin and beta-lactamase inhibitor" "J01CR02"
+* #100000096928 "ibuprofen" "M01AE01"
+* #100000096183 "cefuroxime" "J01DC02"
+* #100000094669 "ibuprofen" "C01EB16"
+* #100000095169 "simvastatin" "C10AA01"
+* #100000095065 "amlodipine" "C08CA01"
 
 CodeSystem: CombinationPackage_EMA_CS
 Id: combination-package-ema-cs

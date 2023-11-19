@@ -37,7 +37,7 @@ Usage: #inline
 * status = $200000005003#200000005004 "Provisional"
 * combinedPharmaceuticalDoseForm = $200000000004#100000073870 "Solution for infusion"
 * legalStatusOfSupply = $100000072051#100000072084 "Medicinal Product subject to medical prescription"
-* classification[0] = $100000093533#100000090365 "ibuprofen"
+* classification[0] = $100000093533#100000096928 "ibuprofen"
 * classification[+] = $who-atc#C01EB16 "ibuprofen"
 * name.productName = "Pedea inf. oploss. i.v. [amp.] 10 mg / 2 ml"
 * name.usage.country = $100000000002#100000000337 "Kingdom of Belgium"
