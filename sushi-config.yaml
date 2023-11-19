@@ -179,8 +179,7 @@ menu:
 # partial list of allowed parameters see:
 # https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
 parameters:
-#  excludettl: true
-#  validation: [allow-any-extensions, no-broken-links]
+  produce-jekyll-data: true
   special-url:
   - https://spor.ema.europa.eu/v1/lists/100000093533
   - https://spor.ema.europa.eu/v1/lists/100000072052
