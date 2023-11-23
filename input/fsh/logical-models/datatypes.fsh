@@ -115,6 +115,12 @@ Description: "Address"
 * . ^short = "Address"
 * . ^definition = "Mailing and home or office addresses. A sequence of address parts, such as street or post office box, city, postal code, country, etc."
 
+Profile: ED
+Parent: Element
+Description: "Encapsulated data"
+* . ^short = "Encapsulated data"
+* . ^definition = "Encapsulated data included in the messages (image, audio, or other binary data)"
+
 
 // Other candidates
 
