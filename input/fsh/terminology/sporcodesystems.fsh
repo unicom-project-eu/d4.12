@@ -2819,29 +2819,6 @@ Description: "Combined Pharmaceutical Dose Form. Based on EDQM. Re-coded with RM
 * #200000005547 "Powder and solution for suspension for injection"
 * #200000010382 "Lyophilisate and solvent for suspension for nasal spray or injection"
 
-CodeSystem: ATC_Human_EMA
-Id: ATC-Human-EMA
-Title: "ATC Human EMA"
-Description: "ATC classification recoded with EMA SPOR RMS codes. Flat list, WHO ATC codes provided in description field for easier use."
-* ^url = $100000093533
-* ^status = #draft
-* ^contact.telecom.system = #email
-* ^compositional = false
-* ^content = #complete
-* ^caseSensitive = false
-* ^experimental = false
-* #100000095729 "OTHER GYNECOLOGICALS" "G02"
-* #100000094848 "Pyrazolone derivatives" "C03CD"
-* #100000098548 "DECONGESTANTS AND ANTIALLERGICS" "S01G"
-* #100000096401 "Other drugs for treatment of tuberculosis" "J04AK"
-* #100000095277 "Antifungals for systemic use" "D01BA"
-* #100000096162 "amoxicillin and beta-lactamase inhibitor" "J01CR02"
-* #100000096928 "ibuprofen" "M01AE01"
-* #100000096183 "cefuroxime" "J01DC02"
-* #100000094669 "ibuprofen" "C01EB16"
-* #100000095169 "simvastatin" "C10AA01"
-* #100000095065 "amlodipine" "C08CA01"
-* #100000095134 "enalapril and lercanidipine" "C09BB02"
 
 CodeSystem: CombinationPackage_EMA_CS
 Id: combination-package-ema-cs
