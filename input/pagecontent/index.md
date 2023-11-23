@@ -1,18 +1,18 @@
 ### Introduction
 This Implementation Guide is a prototype for providing ISO IDMP compliant medication data to eHealth and other national stakeholders.
 
-The implementation guide is based on [UNICOM Implementation Guide](http://build.fhir.org/ig/hl7-eu/unicom-ig/) in its core data. However, the current deliverable goes beyond ISO IDMP, reflecting also the national level requirements that are common for most countries in Europe. This information is gathered from the NCAs as well as their national eHealth partners.
+The implementation guide is based on [UNICOM Implementation Guide](http://build.fhir.org/ig/hl7-eu/unicom-ig/) in its core data. However, the current deliverable goes beyond ISO IDMP, reflecting also the national level requirements that are common for many countries in Europe. This information is gathered from the NCAs as well as their national eHealth partners.
 
 ### Specification
 The specification aims to be a prototype, suitable for most NCAs for planning their public data feed after aligning their inner information systems with ISO IDMP.
-The specification is part of UNICOM Work Package 4 deliverable "D4.12 Prototype presentation of IDMP compatible datafeeds to eHealth consumers". 
+The specification is initially created as part of UNICOM Work Package 4 deliverable "D4.12 Prototype presentation of IDMP compatible datafeeds to eHealth consumers". 
 
 **Content of the Implementation Guide:**
 - Logical data model;
 - FHIR profiles for related resources;
-- Examples from different countries;
+- Example data;
 - Guidance on which coded terminologies to use;
-- Background information about different approaches for sharing medication data in FHIR. 
+- Background information about the rationale behind implementation choices. 
 
 
 **Related resources:**
@@ -30,10 +30,12 @@ The specification is part of UNICOM Work Package 4 deliverable "D4.12 Prototype 
 - D9.3: Report on the Specification(s) and delivery technology for IDMP data delivery from NCA to MPD.
 - D9.4: IDMP Implementation guidance for pharmacy system suppliers (focus on patient medication list) - Common minimum data set.
 
-### Authors
-**Deliverable is being prepared by the following UNICOM Work Package 4 members:**
-- Austria  
+### Contributors
+**Medicines agencies:**
 - Belgium  
 - Estonia  
 - Portugal  
-- Sweden
+
+**Technical support**
+- HL7 Belgium
+- HL7 Portugal
