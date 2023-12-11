@@ -1,8 +1,9 @@
 
-There were several different starting points for creating the common data model for the prototype data feed: 
-•	IDMP data model with EMA additions, implemented in the NCA systems; 
-•	Data requirements from the current national stakeholders; 
-•	Data requirements from other UNICOM work package deliverables.
+There were several different starting points for creating the common data model for the prototype data feed:  
+- IDMP data model with EMA additions, implemented in the NCA systems;  
+- Data requirements from the current national stakeholders;  
+- Data requirements from other UNICOM work package deliverables.  
+
 As a result, common core data model was created, leaving all options open for involved countries to extend or refine the scope for their national implementations. This data model was compared to the current UNICOM implementation guide and HL7 Electronic Product Information implementation guide to ensure a consistent approach and raise the quality in all related specifications. 
 
 ### National requirements beyond IDMP
