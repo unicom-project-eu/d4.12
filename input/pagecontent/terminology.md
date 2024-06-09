@@ -2,7 +2,7 @@ ISO IDMP standards do not define which code systems should be used for data capt
 NCAs are relying on EMA specification for implementing IDMP and are likely to use EMA SPOR terminology internally. However, the stakeholders on the national level may have different requirements for terminology. 
 For example, the following table illustrates the differences between what is needed in cross-border services compared to what is used by the regulatory domain.  
 
-|MyHealth@EU|EMA RMS|Display name|
+|Coded attribute|MyHealth@EU|EMA RMS|Display name|
 |Dose form|EDQM: 10221000|100000073665|Film-coated tablet|
 |Route of administration|EDQM: 20053000|100000073619|Oral use|
 |Packaging|EDQM: 30009000|100000073498|Box|
