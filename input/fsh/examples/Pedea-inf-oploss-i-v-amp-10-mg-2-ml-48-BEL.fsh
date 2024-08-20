@@ -1,5 +1,6 @@
 Instance: 7e4bb050-45dc-45f0-a8a2-58946a1765b1
 InstanceOf: Bundle
+Description: "Pedea. Ibuprofen 10mg/2ml. Solution for infusion. Belgium."
 Usage: #example
 * type = #collection
 * entry[0].fullUrl = "http://unicom-project.eu/fhir/d4-12/MedicinalProductDefinition/Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-MPD"

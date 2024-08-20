@@ -17,17 +17,8 @@
     </br>
   {% endfor %}
   <hr>
-  {% comment %}and name parts{% endcomment %}
-  <p>Full name: <b>{{ mpd.name[0].productName }}</b></p>
-  {% for namepart in mpd.name[0].part %}
-    <p>
-      - {{ namepart.type.coding[0].display }}:
-      <b>
-        {{ namepart.part }}
-      </b>
-    </p>
-  {% endfor %}
 
+  <p>Full name: <b>{{ mpd.name[0].productName }}</b></p>
 
   {% comment %}for each name (currently [0] but should be all) print the languages{% endcomment %}
   {% comment %}FIX{% endcomment %}

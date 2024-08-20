@@ -1,14 +1,6 @@
-Instance: BE-Cholemed-20mg-FilmCoatedTablets
-InstanceOf: Bundle
-Usage: #example
-Description: "Augmentin. Amoxicillin 500mg, clavulanic acid 125mg. Film coated tablets. Portugal."
-* type = #searchset
-
-* entry[+].resource = Cholemed-20mg-BE-MPD
-* entry[=].fullUrl = "http://unicom-project.eu/fhir/d4-12/MedicinalProductDefinition/Cholemed-20mg-BE-MPD"
-
 Instance: Cholemed-20mg-BE-MPD
 InstanceOf: MedicinalProductD412
+Description: "Cholemed. Simvastatin 20mg. Film coated tablets. Multiple names. Belgium."
 Usage: #example
 * identifier[pmsid].value = "0000000000006"
 * identifier[mpid].value = "BE-100001899-258237"
@@ -54,8 +46,3 @@ Usage: #example
 * name[=].usage.country = $100000000002#100000000337 "Kingdom of Belgium"
 * name[=].usage.language = urn:ietf:bcp:47#en "English"
 
-/*
-* name.part[invented].part = "CHOLEMED"
-* name.part[strength].part = "20 mg"
-* name.part[doseForm].part = "filmomhulde tabletten"
-*/

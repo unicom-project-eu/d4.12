@@ -1,5 +1,5 @@
 /*
-Instance: 24ec7206-8353-4a2a-8c13-0a877f293bb7
+Instance: Cholemed-20mg-BE-MPD-FULL
 InstanceOf: Bundle
 Usage: #example
 * type = #searchset

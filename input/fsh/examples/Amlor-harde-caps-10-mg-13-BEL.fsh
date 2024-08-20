@@ -1,5 +1,6 @@
-Instance: ffc4799a-9e3f-42de-9c0b-656f0e19daa1
+Instance: Amlor-harde-caps-10-mg-13-BEL
 InstanceOf: Bundle
+Description: "Amlor. Amlodipine 10mg. Hard capsules. Belgium."
 Usage: #example
 * type = #collection
 * entry[0].fullUrl = "http://unicom-project.eu/fhir/d4-12/MedicinalProductDefinition/Amlor-harde-caps-10-mg-13-BEL-MPD"

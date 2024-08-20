@@ -1,5 +1,6 @@
-Instance: 7342da26-03e8-4e03-8b01-fe677d73da33
+Instance: Brufen-tabl-verl-afgifte-Retard-800-mg-53-BEL
 InstanceOf: Bundle
+Description: "Brufen. Ibuprofen 800mg. Prolonged release tablets. Belgium."
 Usage: #example
 * type = #collection
 * entry[0].fullUrl = "http://unicom-project.eu/fhir/d4-12/MedicinalProductDefinition/Brufen-tabl-verl-afgifte-Retard-800-mg-53-BEL-MPD"
