@@ -3,7 +3,7 @@ There were several different starting points for creating the common data model 
 - IDMP data model with EMA additions, implemented in the NCA systems;  
 - Data requirements from the current national stakeholders;  
 - Data requirements from other UNICOM work package deliverables.  
-
+  
 As a result, common core data model was created, leaving all options open for involved countries to extend or refine the scope for their national implementations. This data model was compared to the current UNICOM implementation guide and HL7 Electronic Product Information implementation guide to ensure a consistent approach and raise the quality in all related specifications. 
 
 ### National requirements beyond IDMP
@@ -28,23 +28,23 @@ While all NCAs are likely to add more data to their actual data feed, the aspect
 ### Reduced ISO IDMP model
 
 Full ISO IDMP data model is designed for regulatory processes and includes a lot of data which may be confidential or irrelevant for non-regulatory stakeholders. For the prototype data feed, it was needed to reduce the data model and focus on the elements more relevant for clinical users and supply chain. 
-
+  
 The list of data elements to include was inspired by the following three UNICOM deliverables:
 -	D9.3. Report on the Specification(s) and delivery technology for IDMP data delivery from NCA to MPD.
 -	D9.4. IDMP Implementation guidance for pharmacy system suppliers (focus on patient medication list) - Common minimum data set.
 -	D5.7. Common minimum data set for implementation in the national NCA and eHealth solutions.
-
+  
 
 The prototype data feed specification does not discourage publishing more data than required by UNICOM deliverables or the logical model proposed in this deliverable. It is up to every NCA to decide what is relevant for their stakeholders.
 
 ### IDMP model for products without marketing authorisation
 
 In Estonia, a special authorisation to import/distribute is granted in the absence of authorised medicinal products with equivalent effect or where such products are not distributed according to treatment needs. An application for using an unauthorised product may come from 1) a doctor, a health care facility or a professional organization of doctors; 2) framework of national programmes; 3) declaration of an emergency situation under the Emergency Act.  
-
+  
 Products imported with special permits may be published in the NCA register and product data may be used by eHealth services equally with authorised products’ data. In some countries, special permit products are not regarded part of regular register data but follow a different workflow and publishing feeds.  
-
+  
 For the NCA which are responsible for publishing the data of unauthorised medicinal products, it is important to keep it consistent with the basic data for authorised medicinal products as they are handled in same IT systems, and in some countries used in eHealth services via the same data feeds.  
-
+  
 Using IDMP model for products without marketing authorisations requires relaxation of cardinalities and data validation as legacy data or data from countries that are not implementing IDMP, may be incomplete. Publishing data about standard extemporaneous products or nutritional supplements is out of scope for this deliverable, but related challenges were described was covered in OpenMedicine deliverable 3.2 “Identification and description of special products” (2016) and found that the simplified IDMP model can be applied to those products if needed. 
   
   
